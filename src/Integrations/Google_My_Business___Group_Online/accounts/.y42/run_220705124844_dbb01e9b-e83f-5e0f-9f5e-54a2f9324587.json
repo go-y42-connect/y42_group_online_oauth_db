@@ -1,6 +1,6 @@
 {
   "request_id": "220705124844_dbb01e9b-e83f-5e0f-9f5e-54a2f9324587",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "90fcaadb-da04-4a47-bfb9-e95587e92a43",
     "target_credentials": "69c74348-d040-40de-aa75-088cc78eda0a",
@@ -47,5 +47,8 @@
     }
   },
   "created_at": "2022-07-05T12:48:44.563348+00:00",
-  "_signature": "SHwEr6TGy4tO5QIldjHXLKvEmoHg+vpdDFwDDDyzdH/4TqgAqOQE8c7dUP/IXB05WHfKGGIgdaX4rxDqyGygBw=="
+  "failed_at": "2022-07-05T12:49:25.692348+00:00",
+  "error_code": 500,
+  "error_message": "sys.exit(main())  File \"/app/.venv/lib/python3.9/site-packages/babelfish/utilities.py\", line 15, in wrapped\n    return fnc(*args, **kwargs)\n  File \"/app/.venv/lib/python3.9/site-packages/tap_google_mybusiness/__init__.py\", line 76, in main\n    app.run()\n  File \"/app/.venv/lib/python3.9/site-packages/babelfish/application.py\", line 120, in run\n    stream = self.stream_classes[schema.schema_prop.metadata[\"stream_type\"]](self.context)\nKeyError: 'accounts'\n",
+  "_signature": "SCNPCt8+AosLIoZ9YAOTilRFwRSTuXG+/WFrbAx3tVN0J6TLt9+yoTPNK6ayNxaqlS32xc0ntUy6rxlPKwOSCw=="
 }
