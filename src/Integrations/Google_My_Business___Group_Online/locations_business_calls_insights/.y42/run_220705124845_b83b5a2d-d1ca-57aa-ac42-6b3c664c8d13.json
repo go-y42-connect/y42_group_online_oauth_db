@@ -1,6 +1,6 @@
 {
   "request_id": "220705124845_b83b5a2d-d1ca-57aa-ac42-6b3c664c8d13",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "90fcaadb-da04-4a47-bfb9-e95587e92a43",
     "target_credentials": "69c74348-d040-40de-aa75-088cc78eda0a",
@@ -46,5 +46,8 @@
     }
   },
   "created_at": "2022-07-05T12:48:45.756819+00:00",
-  "_signature": "cEPFcfF1N5i7wkagm57z/7o67JY35Npb2mXOFul2m8NckNq5GhqnhQMh+rQuEwSkLMKEGNyXrCzoKhqv9vufAQ=="
+  "failed_at": "2022-07-05T12:50:06.144239+00:00",
+  "error_code": 500,
+  "error_message": "File \"/app/.venv/lib/python3.9/site-packages/googleapiclient/http.py\", line 938, in execute    raise HttpError(resp, content, uri=self.uri)\ngoogleapiclient.errors.HttpError: <HttpError 400 when requesting https://mybusinessbusinesscalls.googleapis.com/v1/locations/5858120319987220049/businesscallsinsights?pageSize=20&alt=json returned \"Request contains an invalid argument.\". Details: \"[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ERROR_CODE_CALLS_NOT_ENABLED', 'domain': 'mybusinessbusinesscalls.googleapis.com'}]\">\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/.venv/lib/python3.9/site-packages/tenacity/__init__.py\", line 407, in __call__\n    result = fn(*args, **kwargs)\n  File \"/app/.venv/lib/python3.9/site-packages/tap_google_mybusiness/sync.py\", line 91, in make_api_request\n    self.handle_error(err, excluded_desc)\n  File \"/app/.venv/lib/python3.9/site-packages/tap_google_mybusiness/sync.py\", line 56, in handle_error\n    raise RetryException\ntap_google_mybusiness.context.RetryException\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/app/.venv/bin/tap-google-mybusiness\", line 8, in <module>\n    sys.exit(main())\n  File \"/app/.venv/lib/python3.9/site-packages/babelfish/utilities.py\", line 15, in wrapped\n    return fnc(*args, **kwargs)\n  File \"/app/.venv/lib/python3.9/site-packages/tap_google_mybusiness/__init__.py\", line 76, in main\n    app.run()\n  File \"/app/.venv/lib/python3.9/site-packages/babelfish/application.py\", line 121, in run\n    stream.run()\n  File \"/app/.venv/lib/python3.9/site-packages/tap_google_mybusiness/sync.py\", line 98, in run\n    for account in self.get_data():\n  File \"/app/.venv/lib/python3.9/site-packages/tap_google_mybusiness/sync.py\", line 263, in get_data\n    data = self.make_api_request(self.service.locations().businesscallsinsights(), url_params)\n  File \"/app/.venv/lib/python3.9/site-packages/tenacity/__init__.py\", line 324, in wrapped_f\n    return self(f, *args, **kw)\n  File \"/app/.venv/lib/python3.9/site-packages/tenacity/__init__.py\", line 404, in __call__\n    do = self.iter(retry_state=retry_state)\n  File \"/app/.venv/lib/python3.9/site-packages/tenacity/__init__.py\", line 361, in iter\n    raise retry_exc from fut.exception()\ntenacity.RetryError: RetryError[<Future at 0x7f058d4a0fa0 state=finished raised RetryException>]\n",
+  "_signature": "qitXAHH3dL+O3wmohF1MMHExwIzs5tBGu2o8z1GdlQuMo6azwIpRWUxxA1h+nsoWEPnkY5TNs7ogGJHCdyRrAg=="
 }
