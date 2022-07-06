@@ -43,5 +43,17 @@
     }
   },
   "created_at": "2022-07-06T10:47:50.896322+00:00",
-  "_signature": "slcW06jzlTcksxJaxZpIA7ZwPXpNdGzWWfF7ZcJYFXePsWl5RFcwrgIRJyIqwQwEMcc7idWhA74JWJs/wGmUCw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-06T10:54:52.776471+00:00",
+    "external_state": {
+      "schema_hash": "14dc870422d3567775f17e8ec93607f9",
+      "startTime": "2022-06-21T10:49:24Z"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a56c6f-3201-356c-0000-e9a10017bf92",
+    "storage_file": "azure://v2snowflakedev.blob.core.windows.net/prod-snowflake-container/userUploads/v2/tap-google-mybusiness/50303936-4107-428d-8023-7116e3a62b43",
+    "partial": false
+  },
+  "_signature": "TpQq/qSGYcFtSpaN2jTZBeAjYF4f537oFgYQ9I+JSQhh8HB+JqLq/PP6Dj16z+fTT9Am0KydQcKPLozdaY26AA=="
 }
