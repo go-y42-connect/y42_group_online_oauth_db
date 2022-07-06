@@ -1,0 +1,47 @@
+{
+  "request_id": "220706103646_724413bf-4a83-5d06-801c-66108bd9b146",
+  "status": "pending",
+  "request": {
+    "source_credentials": "eec14087-1d52-4f97-b32e-a60f41107ba8",
+    "target_credentials": "69c74348-d040-40de-aa75-088cc78eda0a",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/source.json",
+      "parent_id": "accounts/117589114128819671648",
+      "start_date": "2021-07-06T12:34:26Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/table",
+      "columns": [
+        "locationName",
+        "metric",
+        "startTime",
+        "value"
+      ],
+      "import": "locations_report_insights"
+    },
+    "created_at": "2022-07-06T10:36:46.694522+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_My_Business___use__accounts_locations_report_/locations_report_insights",
+        "id": "15:0c23ef76-e280-4fb9-93e9-9875d42a5301",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "go-y42-connect",
+        "repo": "y42_group_online_oauth_db",
+        "commit_sha": "4dc4e3469aec1312864d003cc6b4f3e8967f9ee4"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "84",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-06T10:36:46.694522+00:00",
+  "_signature": "0cgFC8Vv28bp7vwl/7tmssiksihuNNgOqsZYKWDcmRG+Uenq1BEa/nyXod20JHRn9YwqNO0bo1iRMPNfdmiBDQ=="
+}
