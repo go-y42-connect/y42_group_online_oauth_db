@@ -1,3 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/source.json"
+  "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/source.json",
+  "parent_id": "accounts/117589114128819671648",
+  "start_date": "2021-07-06T12:34:26Z"
 }
