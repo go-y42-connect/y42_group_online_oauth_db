@@ -1,6 +1,6 @@
 {
   "request_id": "220706104750_a81ff420-72dd-5134-9784-c49cc17df5a4",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "eec14087-1d52-4f97-b32e-a60f41107ba8",
     "target_credentials": "69c74348-d040-40de-aa75-088cc78eda0a",
@@ -53,7 +53,36 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a56c6f-3201-356c-0000-e9a10017bf92",
     "storage_file": "azure://v2snowflakedev.blob.core.windows.net/prod-snowflake-container/userUploads/v2/tap-google-mybusiness/50303936-4107-428d-8023-7116e3a62b43",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-06T10:55:11.284617+00:00",
+    "row_count": 132860,
+    "current_import_row_count": 132860,
+    "size_in_bytes": 891904,
+    "columns": [
+      {
+        "field_name": "metric",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "locationname",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "starttime",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "value",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220706104750_a81ff420-72dd-5134-9784-c49cc17df5a4",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=PROD_SNOWFLAKE_DB&schemaName=PROD_SNOWFLAKE_SCHEMA&tableName=220706104750_a81ff420-72dd-5134-9784-c49cc17df5a4"
   },
-  "_signature": "TpQq/qSGYcFtSpaN2jTZBeAjYF4f537oFgYQ9I+JSQhh8HB+JqLq/PP6Dj16z+fTT9Am0KydQcKPLozdaY26AA=="
+  "finished_at": "2022-07-06T10:55:11.284743+00:00",
+  "_signature": "NZraypUe14RfXONVQMavbaL8hcbT8Jr1UDzBr1sHs8GE/MCq62xkd9e+nXWigcVhXfS7Oe2rOGAKXyWh9wtBCQ=="
 }
