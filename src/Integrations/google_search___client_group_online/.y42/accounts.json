@@ -1,0 +1,3265 @@
+{
+  "accounts": [
+    {
+      "id": "https://www.plotkon.dk/",
+      "name": "https://www.plotkon.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.sjoerring-elservice.dk/",
+      "name": "https://www.sjoerring-elservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lakexperten-kristrup.dk/",
+      "name": "http://www.lakexperten-kristrup.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jvltb.dk/",
+      "name": "https://www.jvltb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.larstoft.dk/",
+      "name": "https://www.larstoft.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://friskpresset.dk/",
+      "name": "https://friskpresset.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kajspasfoto.dk/",
+      "name": "https://kajspasfoto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kongerslev-kalk.dk/",
+      "name": "https://kongerslev-kalk.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.kunstgalleriet-odense.dk/",
+      "name": "https://www.kunstgalleriet-odense.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://letech.dk/",
+      "name": "https://letech.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.dibbernvvs.dk/",
+      "name": "http://www.dibbernvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.mimontage.dk/",
+      "name": "http://www.mimontage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://cpentreprise.nu/",
+      "name": "http://cpentreprise.nu/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bjarnejpetersen.dk/",
+      "name": "http://www.bjarnejpetersen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.vgo.dk/",
+      "name": "http://www.vgo.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://jyllands-gulvsliber.dk/",
+      "name": "https://jyllands-gulvsliber.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dan-bag.dk/",
+      "name": "https://www.dan-bag.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.stenohus.dk/",
+      "name": "https://www.stenohus.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hp-elektronikmontage.dk/",
+      "name": "https://www.hp-elektronikmontage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://sbgentreprise.dk/",
+      "name": "https://sbgentreprise.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.mmbefordring.dk/",
+      "name": "https://www.mmbefordring.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.sporkursus.dk/",
+      "name": "http://www.sporkursus.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.pamstrupmoeller.dk/",
+      "name": "https://www.pamstrupmoeller.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.ejvind-hviid.dk/",
+      "name": "http://www.ejvind-hviid.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://healingbytorben.dk/",
+      "name": "https://healingbytorben.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dhdentreprise.dk/",
+      "name": "https://dhdentreprise.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.flemmingpaulsen.dk/",
+      "name": "https://www.flemmingpaulsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://kh-auto.dk/",
+      "name": "http://kh-auto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.profilbroderi.dk/",
+      "name": "https://www.profilbroderi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vallensbaek-fysioterapi.dk/",
+      "name": "https://www.vallensbaek-fysioterapi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.vibygger.dk/",
+      "name": "http://www.vibygger.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://thbygbrovst.dk/",
+      "name": "https://thbygbrovst.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dengamlesnedkergaard.dk/",
+      "name": "https://www.dengamlesnedkergaard.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.allansgulv.dk/",
+      "name": "https://www.allansgulv.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.sy-butikken.dk/",
+      "name": "http://www.sy-butikken.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://totalserviceaps.dk/",
+      "name": "https://totalserviceaps.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.vacumex.dk/",
+      "name": "https://www.vacumex.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.gvs-teknik.dk/",
+      "name": "http://www.gvs-teknik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.cn-byg.dk/",
+      "name": "https://www.cn-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://sbmurerogsand.dk/",
+      "name": "https://sbmurerogsand.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://degodehaender.com/",
+      "name": "https://degodehaender.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.flotsmil.dk/",
+      "name": "https://www.flotsmil.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://fishlab.dk/",
+      "name": "http://fishlab.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://veggerts.dk/",
+      "name": "https://veggerts.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bomagulvafslibning.dk/",
+      "name": "https://www.bomagulvafslibning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hhtomreren.dk/",
+      "name": "https://www.hhtomreren.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://silkeborg-gokart.dk/",
+      "name": "https://silkeborg-gokart.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--entreprenrservice-80b.dk/",
+      "name": "https://xn--entreprenrservice-80b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hedevig.dk/",
+      "name": "https://www.hedevig.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.madsentourguide.dk/",
+      "name": "http://www.madsentourguide.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://murerkonsortiet.dk/",
+      "name": "https://murerkonsortiet.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dfpool.dk/",
+      "name": "https://dfpool.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://tilst-bilcenter.dk/",
+      "name": "http://tilst-bilcenter.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://standys-blik.dk/",
+      "name": "https://standys-blik.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.asger-larsen-vvs.dk/",
+      "name": "http://www.asger-larsen-vvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.mekanic.dk/",
+      "name": "https://www.mekanic.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://dinmidtjyskemassor.dk/",
+      "name": "http://dinmidtjyskemassor.dk/",
+      "description": "Permission: siteFullUser"
+    },
+    {
+      "id": "http://www.mhauto.dk/",
+      "name": "http://www.mhauto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://byegsgaard.dk/",
+      "name": "https://byegsgaard.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.osteriet-vejle.dk/",
+      "name": "https://www.osteriet-vejle.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://frisgaardbyg.dk/",
+      "name": "https://frisgaardbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://embk.dk/",
+      "name": "https://embk.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://beck-ohlsens.dk/",
+      "name": "https://beck-ohlsens.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://martinjensen.info/",
+      "name": "http://martinjensen.info/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://superfuge.dk/",
+      "name": "http://superfuge.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nordictotalbyg.dk/",
+      "name": "https://www.nordictotalbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://finesse-byg.dk/",
+      "name": "https://finesse-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.cosmetica.dk/",
+      "name": "https://www.cosmetica.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.nexoesmede.dk/",
+      "name": "http://www.nexoesmede.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.soren-k.dk/",
+      "name": "http://www.soren-k.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vhmskabe.dk/",
+      "name": "https://vhmskabe.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://bojesenbyg.dk/",
+      "name": "https://bojesenbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.teddyskantine.dk/",
+      "name": "https://www.teddyskantine.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.koldkjaer.dk/",
+      "name": "https://www.koldkjaer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.nordiskdorautomatik.com/",
+      "name": "http://www.nordiskdorautomatik.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.dinrevisoraps.dk/",
+      "name": "http://www.dinrevisoraps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://lambaeks.dk/",
+      "name": "http://lambaeks.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lamanok-resort.com/",
+      "name": "http://www.lamanok-resort.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://timstoemrer.dk/",
+      "name": "https://timstoemrer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://mallesgulvmontering.dk/",
+      "name": "http://mallesgulvmontering.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://betonentreprenoeren.dk/",
+      "name": "https://betonentreprenoeren.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.lp-service.dk/",
+      "name": "https://www.lp-service.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://baekgaardopbevaring.dk/",
+      "name": "https://baekgaardopbevaring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.brdrmadsen.dk/",
+      "name": "http://www.brdrmadsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jahnslaase.dk/",
+      "name": "https://jahnslaase.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://logstorkvikservice.dk/",
+      "name": "https://logstorkvikservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://tandlaege-kim.dk/",
+      "name": "https://tandlaege-kim.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://fliseroghegn.dk/",
+      "name": "https://fliseroghegn.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.oens-koereskole.dk/",
+      "name": "http://www.oens-koereskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://langhoj-entreprenor.dk/",
+      "name": "https://langhoj-entreprenor.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://twinway.dk/",
+      "name": "https://twinway.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.brovst-transport.dk/",
+      "name": "https://www.brovst-transport.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jjholding.dk/",
+      "name": "https://www.jjholding.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.persdiamantvaerktoej.dk/",
+      "name": "http://www.persdiamantvaerktoej.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://atheneservice.dk/",
+      "name": "https://atheneservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.flemmingpaulsen.dk/",
+      "name": "http://www.flemmingpaulsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.hindsholmvvs.dk/",
+      "name": "http://www.hindsholmvvs.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.ksvagt.dk/",
+      "name": "https://www.ksvagt.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.trolle-byg.dk/",
+      "name": "http://www.trolle-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://flexteampartner.com/",
+      "name": "https://flexteampartner.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nrsoeby-polstring.dk/",
+      "name": "https://www.nrsoeby-polstring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.knud-kyndesen.dk/",
+      "name": "http://www.knud-kyndesen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.olstykkeglas.dk/",
+      "name": "http://www.olstykkeglas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://lyngkroen.dk/",
+      "name": "http://lyngkroen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.loekkenfiskepark.dk/",
+      "name": "http://www.loekkenfiskepark.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://e-henriksen.com/",
+      "name": "https://e-henriksen.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://roskilde-akupunkturklinik.dk/",
+      "name": "https://roskilde-akupunkturklinik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://signcreation.dk/",
+      "name": "http://signcreation.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://yacht-charter.dk/",
+      "name": "https://yacht-charter.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lf-fjedre.dk/",
+      "name": "http://www.lf-fjedre.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://brdrgottlieb.dk/",
+      "name": "https://brdrgottlieb.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.slagteren-fredriksgade.dk/",
+      "name": "http://www.slagteren-fredriksgade.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.cafeskomagerhuset.dk/",
+      "name": "https://www.cafeskomagerhuset.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://sbmurer.dk/",
+      "name": "https://sbmurer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.ryeauto.dk/",
+      "name": "http://www.ryeauto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bjarnetoft.dk/",
+      "name": "http://www.bjarnetoft.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://amfre.dk/",
+      "name": "https://amfre.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://skals-fragt.dk/",
+      "name": "https://skals-fragt.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://michael-hansen.dk/",
+      "name": "http://michael-hansen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://taastrup-kloakservice.dk/",
+      "name": "https://taastrup-kloakservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.egaamureraps.dk/",
+      "name": "https://www.egaamureraps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kaelo.dk/",
+      "name": "https://kaelo.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.hhtomreren.dk/",
+      "name": "http://www.hhtomreren.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.akupunktoeren.com/",
+      "name": "https://www.akupunktoeren.com/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://gatewaytodenmark.com/",
+      "name": "https://gatewaytodenmark.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://midtjysk-montage.dk/",
+      "name": "https://midtjysk-montage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bhfnaturskole.dk/",
+      "name": "http://www.bhfnaturskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.noerup-planteskole.dk/",
+      "name": "http://www.noerup-planteskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.toemrermester-skovmoeller.dk/",
+      "name": "https://www.toemrermester-skovmoeller.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.koldkjaer.dk/",
+      "name": "http://www.koldkjaer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://betonbelaegninger.dk/",
+      "name": "https://betonbelaegninger.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--virringtmrersnedker-27b.dk/",
+      "name": "https://xn--virringtmrersnedker-27b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.kle.dk/",
+      "name": "http://www.kle.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://viuff.se/",
+      "name": "https://viuff.se/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.tandblomst.dk/",
+      "name": "https://www.tandblomst.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://hery.dk/",
+      "name": "http://hery.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://foot-care.dk/",
+      "name": "http://foot-care.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hedens-taekkemaend.dk/",
+      "name": "https://www.hedens-taekkemaend.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.reersoekro.dk/",
+      "name": "https://www.reersoekro.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.jens-vinderslev.dk/",
+      "name": "http://www.jens-vinderslev.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://fynsautoexport.dk/",
+      "name": "https://fynsautoexport.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.energy-solutions.dk/",
+      "name": "http://www.energy-solutions.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.pot-ole.dk/",
+      "name": "https://www.pot-ole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vissenbjergbageri.dk/",
+      "name": "https://vissenbjergbageri.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://aawater.dk/",
+      "name": "http://aawater.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://enaservice.dk/",
+      "name": "https://enaservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://tomrerfirmaetcc.dk/",
+      "name": "http://tomrerfirmaetcc.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.herning-turist.dk/",
+      "name": "https://www.herning-turist.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dybvadtaxi.dk/",
+      "name": "https://www.dybvadtaxi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ikastbedandbreakfast.dk/",
+      "name": "https://www.ikastbedandbreakfast.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://hsplastic.dk/",
+      "name": "https://hsplastic.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kieler-slamsugning.dk/",
+      "name": "https://kieler-slamsugning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.strunge.dk/",
+      "name": "https://www.strunge.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://brdrsand.dk/",
+      "name": "http://brdrsand.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://lillysrestaurant.dk/",
+      "name": "http://lillysrestaurant.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.rustek.dk/",
+      "name": "https://www.rustek.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--danskbyggerdgivning-bxb.dk/",
+      "name": "https://xn--danskbyggerdgivning-bxb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://lindepartners.dk/",
+      "name": "https://lindepartners.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.kcanlaegsgartner.dk/",
+      "name": "https://www.kcanlaegsgartner.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.iavognmand.dk/",
+      "name": "https://www.iavognmand.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bramstrup.dk/",
+      "name": "https://www.bramstrup.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://hestespaogwellness.dk/",
+      "name": "https://hestespaogwellness.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.byggefirmaet-keld-ebbesen.dk/",
+      "name": "https://www.byggefirmaet-keld-ebbesen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.camillas-blomster.dk/",
+      "name": "https://www.camillas-blomster.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://ds-malerentreprise.dk/",
+      "name": "https://ds-malerentreprise.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.paulex.dk/",
+      "name": "https://www.paulex.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vojenstomrer.dk/",
+      "name": "https://www.vojenstomrer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--skovlkkeentreprise-k4b.dk/",
+      "name": "https://xn--skovlkkeentreprise-k4b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.egelymurerforretning.dk/",
+      "name": "https://www.egelymurerforretning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.murerfirmaettjt.dk/",
+      "name": "http://www.murerfirmaettjt.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.tornbjergschou.dk/",
+      "name": "https://www.tornbjergschou.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--hnghandelscenter-lxb.dk/",
+      "name": "http://xn--hnghandelscenter-lxb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://crawforddanmark.dk/",
+      "name": "http://crawforddanmark.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://dabyg.dk/",
+      "name": "http://dabyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nisgaard.dk/",
+      "name": "https://www.nisgaard.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://gartnerkj.dk/",
+      "name": "https://gartnerkj.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://huruptaxi.dk/",
+      "name": "http://huruptaxi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://ms-concept.dk/",
+      "name": "https://ms-concept.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.cemage.dk/",
+      "name": "https://www.cemage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.nb-beton.dk/",
+      "name": "http://www.nb-beton.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://newelement.dk/",
+      "name": "https://newelement.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.faarvangtomrerfirma.dk/",
+      "name": "http://www.faarvangtomrerfirma.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://lida-byg.dk/",
+      "name": "https://lida-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://murermesteren.dk/",
+      "name": "http://murermesteren.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--skrydstruptmrer-gub.dk/",
+      "name": "http://xn--skrydstruptmrer-gub.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.klinik-themis.dk/",
+      "name": "http://www.klinik-themis.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.mesterlindberg.dk/",
+      "name": "http://www.mesterlindberg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--mettehedstrm-5jb.dk/",
+      "name": "http://xn--mettehedstrm-5jb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://flyvbjergtoemrer.dk/",
+      "name": "https://flyvbjergtoemrer.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.damsgaard-rasmussen.dk/",
+      "name": "http://www.damsgaard-rasmussen.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.cleanwest.dk/",
+      "name": "https://www.cleanwest.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.linn-nyborg.dk/",
+      "name": "https://www.linn-nyborg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.smedogblik.dk/",
+      "name": "http://www.smedogblik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.jensmoeller.dk/",
+      "name": "http://www.jensmoeller.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.festbutik.dk/",
+      "name": "http://www.festbutik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.brdr-hansen.dk/",
+      "name": "http://www.brdr-hansen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.frk-juuls.dk/",
+      "name": "https://www.frk-juuls.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://vognopbygning.dk/",
+      "name": "https://vognopbygning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.fuglsangkb.dk/",
+      "name": "http://www.fuglsangkb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.th-kjaer.dk/",
+      "name": "https://www.th-kjaer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.birch-ent.dk/",
+      "name": "http://www.birch-ent.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jjteknik.dk/",
+      "name": "https://jjteknik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://oakroom.dk/",
+      "name": "http://oakroom.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.lyzet.dk/",
+      "name": "http://www.lyzet.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bygalt.dk/",
+      "name": "https://www.bygalt.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.lyholm.com/",
+      "name": "http://www.lyholm.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.ap-gyllevogne.dk/",
+      "name": "http://www.ap-gyllevogne.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kragelundhuseaps.dk/",
+      "name": "https://kragelundhuseaps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://lbs-marineservice.dk/",
+      "name": "https://lbs-marineservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://brdrjensenaps.dk/",
+      "name": "https://brdrjensenaps.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.sanderumsmede.dk/",
+      "name": "https://www.sanderumsmede.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jdnbyg.dk/",
+      "name": "https://www.jdnbyg.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://dgrevision.dk/",
+      "name": "https://dgrevision.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.sundsentreprenor.dk/",
+      "name": "http://www.sundsentreprenor.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bjoedstrupauto.dk/",
+      "name": "https://www.bjoedstrupauto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dp-international.dk/",
+      "name": "https://www.dp-international.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.egsyd.dk/",
+      "name": "https://www.egsyd.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.lf-fjedre.dk/",
+      "name": "https://www.lf-fjedre.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://tomolsen.dk/",
+      "name": "http://tomolsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://pollyservice.dk/",
+      "name": "https://pollyservice.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://solutionspace.dk/",
+      "name": "http://solutionspace.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.nimtoftevand.dk/",
+      "name": "http://www.nimtoftevand.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.hornbaekel.dk/",
+      "name": "http://www.hornbaekel.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://aktivhusoghave.dk/",
+      "name": "https://aktivhusoghave.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.arnoldp.dk/",
+      "name": "https://www.arnoldp.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://fragttaxa.dk/",
+      "name": "https://fragttaxa.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://molandersmalerfirma.dk/",
+      "name": "https://molandersmalerfirma.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kdgulvslibning.dk/",
+      "name": "https://kdgulvslibning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.altiglas.dk/",
+      "name": "https://www.altiglas.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.el-tek.net/",
+      "name": "https://www.el-tek.net/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://smpulverlakering.dk/",
+      "name": "https://smpulverlakering.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.mklarskov.dk/",
+      "name": "https://www.mklarskov.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://krusevvs.dk/",
+      "name": "https://krusevvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.xn--se-lka.nu/",
+      "name": "http://www.xn--se-lka.nu/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://soby.dk/",
+      "name": "http://soby.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://malermesterfischer.dk/",
+      "name": "https://malermesterfischer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.elplatek.dk/",
+      "name": "http://www.elplatek.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.alttilbruden.dk/",
+      "name": "https://www.alttilbruden.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.garderholding.com/",
+      "name": "https://www.garderholding.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.graes-klipogfliser.dk/",
+      "name": "http://www.graes-klipogfliser.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.galtenbilsyn.dk/",
+      "name": "https://www.galtenbilsyn.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lefleur.dk/",
+      "name": "http://www.lefleur.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://enox.dk/",
+      "name": "https://enox.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.sundbyrengoringsservice.dk/",
+      "name": "http://www.sundbyrengoringsservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.klarupmurerforretning.dk/",
+      "name": "http://www.klarupmurerforretning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://norlindtag.dk/",
+      "name": "https://norlindtag.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://entreprenoer-thy.dk/",
+      "name": "http://entreprenoer-thy.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.dancity-vagt.dk/",
+      "name": "http://www.dancity-vagt.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://fuservice.dk/",
+      "name": "https://fuservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jyskgulvbehandling.dk/",
+      "name": "https://jyskgulvbehandling.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://murermesterkroeger.dk/",
+      "name": "https://murermesterkroeger.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.rebildhestepraksis.dk/",
+      "name": "http://www.rebildhestepraksis.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.amagerbrogade17.dk/",
+      "name": "https://www.amagerbrogade17.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--anlgsgartner-kp-zlb.dk/",
+      "name": "https://www.xn--anlgsgartner-kp-zlb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://nydahlel.dk/",
+      "name": "https://nydahlel.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--malerfirmaetrosenhj-d8b.dk/",
+      "name": "https://xn--malerfirmaetrosenhj-d8b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://norby.dk/",
+      "name": "http://norby.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.kb-entreprise.dk/",
+      "name": "https://www.kb-entreprise.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://dklifte.dk/",
+      "name": "http://dklifte.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jensmoeller.dk/",
+      "name": "https://www.jensmoeller.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--tandlgerne-abildtrup-m0b.dk/",
+      "name": "http://xn--tandlgerne-abildtrup-m0b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://mesterfrandsen.dk/kontakt-os.aspx/",
+      "name": "https://mesterfrandsen.dk/kontakt-os.aspx/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ks-totalservice.dk/",
+      "name": "https://www.ks-totalservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.revisionshuset.dk/",
+      "name": "https://www.revisionshuset.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.arnborghavepleje.dk/",
+      "name": "https://www.arnborghavepleje.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://knudegarn.dk/",
+      "name": "http://knudegarn.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dixenautoservice.dk/",
+      "name": "https://dixenautoservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://lanterna.dk/",
+      "name": "https://lanterna.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://salonelisa.dk/",
+      "name": "http://salonelisa.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.byggefirmaet-keld-ebbesen.dk/",
+      "name": "http://www.byggefirmaet-keld-ebbesen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://mbtraepleje.dk/",
+      "name": "https://mbtraepleje.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://jjteknik.dk/",
+      "name": "http://jjteknik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://hvalpsund-faergekro.dk/",
+      "name": "https://hvalpsund-faergekro.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://hans-emil.dk/",
+      "name": "http://hans-emil.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://ecs.dk/",
+      "name": "https://ecs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.rh-flyt.dk/",
+      "name": "http://www.rh-flyt.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vedstedvvs.dk/",
+      "name": "https://vedstedvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ap-s.dk/",
+      "name": "https://www.ap-s.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.braendeovndirekte.dk/",
+      "name": "http://www.braendeovndirekte.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.kipp-smykker.dk/",
+      "name": "https://www.kipp-smykker.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://torpglas.dk/",
+      "name": "https://torpglas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://rsh-natur.dk/",
+      "name": "https://rsh-natur.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://ejbybageri.dk/",
+      "name": "http://ejbybageri.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://cpentreprise.nu/",
+      "name": "https://cpentreprise.nu/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--skrps-ura.dk/",
+      "name": "https://www.xn--skrps-ura.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--asgertmrer-5cb.dk/",
+      "name": "https://xn--asgertmrer-5cb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dansk-rottespaerre.dk/",
+      "name": "https://dansk-rottespaerre.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://kl-installation.dk/",
+      "name": "http://kl-installation.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jysg.dk/",
+      "name": "https://jysg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dpm-as.dk/",
+      "name": "https://dpm-as.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.badgiganten.dk/",
+      "name": "http://www.badgiganten.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://ivansorensen.dk/",
+      "name": "http://ivansorensen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.steneksperten.dk/",
+      "name": "http://www.steneksperten.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.byens-laase.dk/",
+      "name": "https://www.byens-laase.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kloakmestersuhr.dk/",
+      "name": "https://kloakmestersuhr.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bjarnesglas.dk/",
+      "name": "https://www.bjarnesglas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.dromme-huse.dk/",
+      "name": "http://www.dromme-huse.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.gas-experten.dk/",
+      "name": "http://www.gas-experten.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.chofame.dk/",
+      "name": "http://www.chofame.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.aapetersen.dk/",
+      "name": "http://www.aapetersen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--mhb-anlg-p0a.dk/",
+      "name": "http://xn--mhb-anlg-p0a.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://nsab.dk/",
+      "name": "http://nsab.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://nilbiler.dk/",
+      "name": "https://nilbiler.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.tibirkelund.dk/",
+      "name": "https://www.tibirkelund.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--lhkreskole-2cb.dk/",
+      "name": "https://xn--lhkreskole-2cb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--veflinge-tmrerforretning-9pc.dk/",
+      "name": "https://xn--veflinge-tmrerforretning-9pc.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.3bmceramics.dk/",
+      "name": "http://www.3bmceramics.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bjarnejpetersen.dk/",
+      "name": "https://www.bjarnejpetersen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://msea.dk/",
+      "name": "https://msea.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.pjbiler.dk/",
+      "name": "http://www.pjbiler.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://flexrp.dk/",
+      "name": "http://flexrp.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://hjtek.gl/",
+      "name": "http://hjtek.gl/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://clinic2lab.dk/",
+      "name": "https://clinic2lab.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.randersfarvecenter.dk/",
+      "name": "https://www.randersfarvecenter.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.radioservice.fo/",
+      "name": "http://www.radioservice.fo/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://engellconsult.dk/",
+      "name": "https://engellconsult.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.mfys.dk/",
+      "name": "http://www.mfys.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://sportspony.dk/",
+      "name": "http://sportspony.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hukaergaard.dk/",
+      "name": "https://www.hukaergaard.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vvs-andersson.dk/",
+      "name": "https://www.vvs-andersson.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://ags-bilpleje.dk/",
+      "name": "http://ags-bilpleje.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://easyliner.dk/",
+      "name": "https://easyliner.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://stationnord.dk/",
+      "name": "https://stationnord.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.tomsbageriservice.dk/",
+      "name": "https://www.tomsbageriservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.svvd.dk/",
+      "name": "http://www.svvd.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--mbler-skive-ggb.dk/",
+      "name": "https://xn--mbler-skive-ggb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.klemco.dk/",
+      "name": "http://www.klemco.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.alternativ-kloakering.dk/",
+      "name": "http://www.alternativ-kloakering.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.xn--vestfyntrkker-cgb.dk/",
+      "name": "http://www.xn--vestfyntrkker-cgb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ca-koreskole.dk/",
+      "name": "https://www.ca-koreskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://pmcvvs.dk/",
+      "name": "https://pmcvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.asberg-olesen.dk/",
+      "name": "http://www.asberg-olesen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://aa-ent.dk/",
+      "name": "https://aa-ent.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jr-servicefirma.dk/",
+      "name": "https://www.jr-servicefirma.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bille-zornig.dk/",
+      "name": "http://www.bille-zornig.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.kitchenbynettoline.dk/",
+      "name": "https://www.kitchenbynettoline.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://salongaia.dk/",
+      "name": "https://salongaia.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://esbjerghave.dk/",
+      "name": "https://esbjerghave.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.graaehilmand.dk/",
+      "name": "http://www.graaehilmand.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.martinpape.dk/",
+      "name": "https://www.martinpape.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.kh-foto.dk/",
+      "name": "http://www.kh-foto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.nehmogkebyg.dk/",
+      "name": "http://www.nehmogkebyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.smhtransport.dk/",
+      "name": "http://www.smhtransport.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://fuglemosevej.dk/",
+      "name": "https://fuglemosevej.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.brudedesign.dk/",
+      "name": "https://www.brudedesign.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.e-lektrikeren.dk/",
+      "name": "https://www.e-lektrikeren.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://oesteroe-snedker.dk/",
+      "name": "https://oesteroe-snedker.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://toftegaardsdoedsboservice.dk/",
+      "name": "https://toftegaardsdoedsboservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://snedker-aaby.dk/",
+      "name": "http://snedker-aaby.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.torpsekretaerservice.dk/",
+      "name": "http://www.torpsekretaerservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://maskinfabrikken4ien.dk/",
+      "name": "http://maskinfabrikken4ien.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.b-k.dk/",
+      "name": "http://www.b-k.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.fk-emballage.dk/",
+      "name": "http://www.fk-emballage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.tectum.dk/",
+      "name": "http://www.tectum.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.vejlearkitekter.dk/",
+      "name": "http://www.vejlearkitekter.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jhjbeton.dk/",
+      "name": "https://jhjbeton.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.glvmaler.dk/",
+      "name": "https://www.glvmaler.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://cmmportlandcement.dk/",
+      "name": "https://cmmportlandcement.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://houlindejendomme.dk/",
+      "name": "https://houlindejendomme.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.vandteknik-aps.dk/",
+      "name": "http://www.vandteknik-aps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.belkovsindramning.dk/",
+      "name": "http://www.belkovsindramning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kspedersen-ent.dk/",
+      "name": "https://kspedersen-ent.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://znamas.dk/",
+      "name": "https://znamas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://morten-ke.dk/",
+      "name": "https://morten-ke.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.fredsoelogistik.dk/",
+      "name": "https://www.fredsoelogistik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://lanfora.dk/",
+      "name": "http://lanfora.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.mot.as/",
+      "name": "https://www.mot.as/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--nsbjergtmrer-6cb3x.dk/",
+      "name": "https://www.xn--nsbjergtmrer-6cb3x.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://filskovkrofodboldgolf.dk/",
+      "name": "https://filskovkrofodboldgolf.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://wilsoggoetke.dk/",
+      "name": "https://wilsoggoetke.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.gardinerogmarkiser.dk/",
+      "name": "https://www.gardinerogmarkiser.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bakkegaardensbageri.dk/",
+      "name": "https://www.bakkegaardensbageri.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.gla.dk/",
+      "name": "https://www.gla.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vadskaergaard-teltudlejning.dk/",
+      "name": "https://www.vadskaergaard-teltudlejning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.janshave.dk/",
+      "name": "http://www.janshave.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.mannabio.dk/",
+      "name": "http://www.mannabio.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.cubicgroup.dk/",
+      "name": "https://www.cubicgroup.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.mereteboje.dk/",
+      "name": "https://www.mereteboje.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.mark-kristensen.dk/",
+      "name": "https://www.mark-kristensen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://brhgulve.dk/",
+      "name": "https://brhgulve.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://syddansk-sb.dk/",
+      "name": "http://syddansk-sb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ij-container.dk/",
+      "name": "https://www.ij-container.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://byensvelvaere.dk/",
+      "name": "https://byensvelvaere.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://mallesgulvmontering.dk/",
+      "name": "https://mallesgulvmontering.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.presan-ejendomme.dk/",
+      "name": "https://www.presan-ejendomme.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.taekkefirmaet.dk/",
+      "name": "http://www.taekkefirmaet.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.udviklingvejen.dk/",
+      "name": "http://www.udviklingvejen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.juulvalentin.dk/",
+      "name": "http://www.juulvalentin.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://fredensborg-elservice.dk/",
+      "name": "https://fredensborg-elservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.snedkerkvalitet.dk/",
+      "name": "http://www.snedkerkvalitet.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.troroddyreklinik.dk/",
+      "name": "https://www.troroddyreklinik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.maltbaeksmede.dk/",
+      "name": "http://www.maltbaeksmede.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.gulv-sliberen.dk/",
+      "name": "https://www.gulv-sliberen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.m2mgruppen.dk/",
+      "name": "http://www.m2mgruppen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://casahair.dk/",
+      "name": "https://casahair.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--brolggerjyden-6fb.dk/",
+      "name": "https://www.xn--brolggerjyden-6fb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ask-teori.dk/",
+      "name": "https://www.ask-teori.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.afridana.dk/",
+      "name": "http://www.afridana.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.denlilledyreklinik.dk/",
+      "name": "https://www.denlilledyreklinik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.span-stuk.dk/",
+      "name": "http://www.span-stuk.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://fys2000.dk/",
+      "name": "https://fys2000.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dinrevisoraps.dk/",
+      "name": "https://dinrevisoraps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jm-malerfirma.dk/",
+      "name": "https://www.jm-malerfirma.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hersebyg.dk/",
+      "name": "https://www.hersebyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.holtech-medical.com/",
+      "name": "http://www.holtech-medical.com/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.fugtek.dk/",
+      "name": "http://www.fugtek.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.sac-ss.dk/",
+      "name": "http://www.sac-ss.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.balletrafikskole.dk/",
+      "name": "http://www.balletrafikskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--kvistgrderhvervscenter-t5b.dk/",
+      "name": "http://xn--kvistgrderhvervscenter-t5b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://baekgaardopbevaring.dk/",
+      "name": "http://baekgaardopbevaring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.dan-transducer.com/",
+      "name": "http://www.dan-transducer.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.haararkitekten.dk/",
+      "name": "http://www.haararkitekten.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.cafeokko.dk/",
+      "name": "https://www.cafeokko.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jp-vodskov.dk/",
+      "name": "https://www.jp-vodskov.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.parcelgaardens-rideskole-glostrup.dk/",
+      "name": "https://www.parcelgaardens-rideskole-glostrup.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--bilngler-84a.com/",
+      "name": "https://www.xn--bilngler-84a.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://taeppeverden.dk/",
+      "name": "http://taeppeverden.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://mbmontage.dk/",
+      "name": "http://mbmontage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://psstilladser.dk/",
+      "name": "http://psstilladser.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.friendsnordborg.dk/",
+      "name": "https://www.friendsnordborg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://ps-sp.dk/",
+      "name": "http://ps-sp.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://hanstholmstevedore.dk/",
+      "name": "http://hanstholmstevedore.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.fuglsangvvs.dk/",
+      "name": "https://www.fuglsangvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.palaug.dk/",
+      "name": "http://www.palaug.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://tffk.dk/",
+      "name": "https://tffk.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bba.dk/",
+      "name": "https://www.bba.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.grus.dk/",
+      "name": "http://www.grus.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.e-m-deichmann.dk/",
+      "name": "https://www.e-m-deichmann.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://vel-byg.dk/",
+      "name": "http://vel-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.kiro-kolding.dk/",
+      "name": "http://www.kiro-kolding.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.kongeskovas.dk/",
+      "name": "https://www.kongeskovas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.sbning.dk/",
+      "name": "http://www.sbning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.solodziuk-smykker.dk/",
+      "name": "http://www.solodziuk-smykker.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kasper-fausing.dk/",
+      "name": "https://kasper-fausing.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.gammelmont.dk/",
+      "name": "http://www.gammelmont.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.virum-fysioterapi.dk/",
+      "name": "http://www.virum-fysioterapi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.struck.dk/",
+      "name": "https://www.struck.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://fundamentalforandring.dk/",
+      "name": "https://fundamentalforandring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vand.nu/",
+      "name": "https://vand.nu/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.danskdexter.dk/",
+      "name": "https://www.danskdexter.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.psykolog-bach.dk/",
+      "name": "https://www.psykolog-bach.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://l-anytime.dk/",
+      "name": "https://l-anytime.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.jmautoopret.dk/",
+      "name": "http://www.jmautoopret.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://flxventilation.dk/",
+      "name": "https://flxventilation.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.apotekertanden.dk/",
+      "name": "http://www.apotekertanden.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bo-pedersen.dk/",
+      "name": "https://www.bo-pedersen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.holboel-snedker.dk/",
+      "name": "http://www.holboel-snedker.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://3ec.dk/",
+      "name": "https://3ec.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://gladetshirts.dk/",
+      "name": "https://gladetshirts.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://aboestervang.dk/",
+      "name": "https://aboestervang.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://michaelpedersen-aps.dk/",
+      "name": "http://michaelpedersen-aps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.bht-byg.dk/",
+      "name": "https://www.bht-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.kimas.dk/",
+      "name": "https://www.kimas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.klausmoller.dk/",
+      "name": "https://www.klausmoller.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://xn--lhkreskole-2cb.dk/",
+      "name": "http://xn--lhkreskole-2cb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.roeds-restaurant.dk/",
+      "name": "https://www.roeds-restaurant.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://murermester-steen.dk/",
+      "name": "https://murermester-steen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vemmelund.dk/",
+      "name": "https://www.vemmelund.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://firmaberedskab.dk/",
+      "name": "http://firmaberedskab.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.anytime-hadsten.dk/",
+      "name": "http://www.anytime-hadsten.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://puritytrading.dk/",
+      "name": "https://puritytrading.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://tand-hvid.dk/",
+      "name": "https://tand-hvid.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://taekkemandcarlsen.dk/",
+      "name": "https://taekkemandcarlsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://brolaeggerodense.dk/",
+      "name": "https://brolaeggerodense.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://dirksvvs.dk/",
+      "name": "http://dirksvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.joni-manpower.dk/",
+      "name": "https://www.joni-manpower.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.rombybyg.dk/",
+      "name": "https://www.rombybyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.axenergi.dk/",
+      "name": "https://www.axenergi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.arkitekt-holst.dk/",
+      "name": "https://www.arkitekt-holst.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.jensenskilte.dk/",
+      "name": "http://www.jensenskilte.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.madamhair.dk/",
+      "name": "https://www.madamhair.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://mesterfrandsen.dk/",
+      "name": "http://mesterfrandsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.max-service.dk/",
+      "name": "https://www.max-service.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vestegnensvinduer.dk/",
+      "name": "https://www.vestegnensvinduer.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.massage-til-dig.dk/",
+      "name": "http://www.massage-til-dig.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://middelfartkoereskole.dk/",
+      "name": "https://middelfartkoereskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.tandlaegeteam.dk/",
+      "name": "https://www.tandlaegeteam.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://hntf.dk/",
+      "name": "https://hntf.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.ent-sb-sodring.dk/",
+      "name": "http://www.ent-sb-sodring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://bjerre-koed.dk/",
+      "name": "https://bjerre-koed.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bj-gulve.dk/",
+      "name": "http://www.bj-gulve.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://madsbirkbyg.dk/",
+      "name": "https://madsbirkbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.caplloyd.com/",
+      "name": "https://www.caplloyd.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jensjensen.as/",
+      "name": "https://jensjensen.as/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://huset-pauli.dk/",
+      "name": "https://huset-pauli.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.boserupejendomme.dk/",
+      "name": "http://www.boserupejendomme.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://cv-maskinservice.dk/",
+      "name": "https://cv-maskinservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.xn--stjysk-tm-k8a.dk/",
+      "name": "http://www.xn--stjysk-tm-k8a.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://dgm-dk.dk/",
+      "name": "http://dgm-dk.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jcentreprice.dk/",
+      "name": "https://jcentreprice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hp-tag.dk/",
+      "name": "https://www.hp-tag.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lks-tools.com/",
+      "name": "http://www.lks-tools.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.murerhuset.dk/",
+      "name": "http://www.murerhuset.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://compassionmanagement.dk/",
+      "name": "https://compassionmanagement.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.kimqhairdesign.dk/",
+      "name": "https://www.kimqhairdesign.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--jrgensgraveservice-g4b.dk/",
+      "name": "https://www.xn--jrgensgraveservice-g4b.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--frkenis-r1a.dk/",
+      "name": "https://xn--frkenis-r1a.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.oens-auto.dk/",
+      "name": "http://www.oens-auto.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://jjbv.dk/",
+      "name": "https://jjbv.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.denirskebutik.dk/",
+      "name": "https://www.denirskebutik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.centrum-fysioterapi.dk/",
+      "name": "http://www.centrum-fysioterapi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://bc15.dk/",
+      "name": "https://bc15.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bjentreprise.dk/",
+      "name": "http://www.bjentreprise.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.hairdeluxe-skive.dk/",
+      "name": "https://www.hairdeluxe-skive.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.elektrokul.dk/",
+      "name": "https://www.elektrokul.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://strathesecurity.dk/",
+      "name": "https://strathesecurity.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.ballusign.dk/",
+      "name": "http://www.ballusign.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://gardeniablomster.dk/",
+      "name": "http://gardeniablomster.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.em-fiberglas.dk/",
+      "name": "https://www.em-fiberglas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://theisbodytherapy.dk/",
+      "name": "https://theisbodytherapy.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.stigogjesper.dk/",
+      "name": "http://www.stigogjesper.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nehmvvs.dk/",
+      "name": "https://www.nehmvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://3-byg-h.dk/",
+      "name": "https://3-byg-h.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://murerfirmaetaom.dk/",
+      "name": "https://murerfirmaetaom.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://sandblaeseren.dk/",
+      "name": "https://sandblaeseren.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.baekkensmerter.dk/",
+      "name": "http://www.baekkensmerter.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.citybriller.dk/",
+      "name": "https://www.citybriller.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nyland-ark.dk/",
+      "name": "https://www.nyland-ark.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://mven.dk/",
+      "name": "https://mven.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.brochnersbiler.dk/",
+      "name": "https://www.brochnersbiler.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.rogs.dk/",
+      "name": "http://www.rogs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.lundgaard-omfugning.dk/",
+      "name": "https://www.lundgaard-omfugning.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://csn-montage.dk/",
+      "name": "https://csn-montage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://asmussen-ts.dk/",
+      "name": "https://asmussen-ts.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--hornbkdyrehospital-sub.dk/",
+      "name": "https://www.xn--hornbkdyrehospital-sub.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://jpt-byg.dk/",
+      "name": "http://jpt-byg.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://cjopbevaring.dk/",
+      "name": "https://cjopbevaring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--stavskr-autoteknik-tub.dk/",
+      "name": "https://www.xn--stavskr-autoteknik-tub.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.al-salahiyahskolen.dk/",
+      "name": "https://www.al-salahiyahskolen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://trivatek.dk/",
+      "name": "https://trivatek.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://connecgroup.dk/",
+      "name": "https://connecgroup.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://tuczeagro.dk/",
+      "name": "https://tuczeagro.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://lethbyg.dk/",
+      "name": "http://lethbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.langeskoereskole.dk/",
+      "name": "http://www.langeskoereskole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://bike-point.dk/",
+      "name": "https://bike-point.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://penthouse-muna.com/",
+      "name": "https://penthouse-muna.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dansklynsikring.dk/",
+      "name": "https://www.dansklynsikring.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.kagulve.dk/",
+      "name": "https://www.kagulve.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.karosserifirma.dk/",
+      "name": "https://www.karosserifirma.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://tm-kimholm.dk/",
+      "name": "https://tm-kimholm.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.salonno1.dk/",
+      "name": "https://www.salonno1.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.kharpsoe.dk/",
+      "name": "http://www.kharpsoe.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hlhtransport.dk/",
+      "name": "https://www.hlhtransport.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--gadensgourmetphjul-iub.dk/",
+      "name": "https://xn--gadensgourmetphjul-iub.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://norskdexter.no/",
+      "name": "https://norskdexter.no/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.helsingorbus.dk/",
+      "name": "https://www.helsingorbus.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.danpipe.dk/",
+      "name": "https://www.danpipe.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.mesterslagter.dk/",
+      "name": "http://www.mesterslagter.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.sindhus.dk/",
+      "name": "http://www.sindhus.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.brudedesign.dk/",
+      "name": "http://www.brudedesign.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://trichem.dk/",
+      "name": "https://trichem.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.arlogistics.dk/",
+      "name": "https://www.arlogistics.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.larstoft.dk/",
+      "name": "http://www.larstoft.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://3ddesignbyheri.dk/",
+      "name": "https://3ddesignbyheri.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://snedker-svendsen.dk/",
+      "name": "https://snedker-svendsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://haandlangerenjj.dk/",
+      "name": "https://haandlangerenjj.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://malergrossmann.dk/",
+      "name": "http://malergrossmann.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jrstaalmontage.dk/",
+      "name": "https://jrstaalmontage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://nymann.com/",
+      "name": "https://nymann.com/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.jbcare.dk/",
+      "name": "http://www.jbcare.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.jjteknik.dk/",
+      "name": "http://www.jjteknik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://dams-kloakservice.dk/",
+      "name": "https://dams-kloakservice.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kfmbyg.dk/",
+      "name": "https://kfmbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.casadana.dk/",
+      "name": "https://www.casadana.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.olesus.dk/",
+      "name": "https://www.olesus.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.hph-son.dk/",
+      "name": "http://www.hph-son.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://rms-truck.dk/",
+      "name": "https://rms-truck.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.raentreprise.dk/",
+      "name": "http://www.raentreprise.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://cmnfugeteknik.dk/",
+      "name": "https://cmnfugeteknik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.indelukketsspisested.dk/",
+      "name": "https://www.indelukketsspisested.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://asfergvvs.dk/",
+      "name": "https://asfergvvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.renoveringdk.dk/",
+      "name": "https://www.renoveringdk.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vgo.dk/",
+      "name": "https://www.vgo.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.wood-care.dk/",
+      "name": "https://www.wood-care.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.dklifte.dk/",
+      "name": "http://www.dklifte.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://hellehoj-ts.dk/",
+      "name": "http://hellehoj-ts.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.serritslev-auto.dk/",
+      "name": "https://www.serritslev-auto.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--brianskreskole-wqb.dk/",
+      "name": "https://www.xn--brianskreskole-wqb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ekmbyg.dk/",
+      "name": "https://www.ekmbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.seasat.dk/",
+      "name": "http://www.seasat.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vel-byg.dk/",
+      "name": "https://vel-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.ojhc.dk/",
+      "name": "https://www.ojhc.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://mesterfrandsen.dk/",
+      "name": "https://mesterfrandsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.majc-byg.dk/",
+      "name": "https://www.majc-byg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://dinrevisoraps.dk/",
+      "name": "http://dinrevisoraps.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jhbygoginventar.dk/",
+      "name": "https://www.jhbygoginventar.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jyskth.dk/",
+      "name": "https://jyskth.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://zoneterapi-midtfyn.dk/",
+      "name": "http://zoneterapi-midtfyn.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.fcrov-piloting.com/",
+      "name": "https://www.fcrov-piloting.com/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.n-i-c.dk/",
+      "name": "https://www.n-i-c.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://murerthomas.dk/",
+      "name": "https://murerthomas.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jejsingbyg.dk/",
+      "name": "https://www.jejsingbyg.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.pvs-vvs.dk/",
+      "name": "http://www.pvs-vvs.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://kirkbakbyg.dk/",
+      "name": "https://kirkbakbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.poulsenstillads.dk/",
+      "name": "http://www.poulsenstillads.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://harrychristensen.dk/",
+      "name": "http://harrychristensen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.agrofond.dk/",
+      "name": "http://www.agrofond.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.danfoil.dk/",
+      "name": "https://www.danfoil.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nivaaerhverv.dk/",
+      "name": "https://www.nivaaerhverv.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://brolaegning-sjaelland.dk/",
+      "name": "http://brolaegning-sjaelland.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.klassisk-indisk-dans.dk/",
+      "name": "http://www.klassisk-indisk-dans.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.resolux.dk/",
+      "name": "https://www.resolux.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.vodskovdyreklinik.dk/",
+      "name": "https://www.vodskovdyreklinik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lyngbygaard.dk/",
+      "name": "http://www.lyngbygaard.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://gulvsliberen.com/",
+      "name": "https://gulvsliberen.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://trapezmontage.dk/",
+      "name": "http://trapezmontage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.malerfirmaetandersen.dk/",
+      "name": "https://www.malerfirmaetandersen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.kp-kloakservice.dk/",
+      "name": "http://www.kp-kloakservice.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://fsk-css.dk/",
+      "name": "https://fsk-css.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://scooterracks123.com/",
+      "name": "https://scooterracks123.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://rtslogistik.dk/",
+      "name": "https://rtslogistik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://oasiswellness.dk/",
+      "name": "http://oasiswellness.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.foxend.dk/",
+      "name": "http://www.foxend.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.drias.dk/",
+      "name": "https://www.drias.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.fredeandersen-maskinstation.dk/",
+      "name": "https://www.fredeandersen-maskinstation.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://ulladegnegaard.dk/",
+      "name": "http://ulladegnegaard.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jphel.dk/",
+      "name": "https://www.jphel.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.steppingbyg.dk/",
+      "name": "https://www.steppingbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.drugsafetyconsult.com/",
+      "name": "https://www.drugsafetyconsult.com/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.tranumklit.dk/",
+      "name": "http://www.tranumklit.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--klarup-tmrerforretning-djc.dk/",
+      "name": "https://xn--klarup-tmrerforretning-djc.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://xn--srenvognmand-vjb.dk/",
+      "name": "https://xn--srenvognmand-vjb.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.hallum-teknik.dk/",
+      "name": "https://www.hallum-teknik.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vmnord.eu/",
+      "name": "https://vmnord.eu/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.nord-fair.dk/",
+      "name": "https://www.nord-fair.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.henriksfuger.dk/",
+      "name": "https://www.henriksfuger.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://tomrer-madsen.dk/",
+      "name": "http://tomrer-madsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bygenergi.dk/",
+      "name": "http://www.bygenergi.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--rhus-maler-05a.dk/",
+      "name": "https://www.xn--rhus-maler-05a.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.palbostaal.dk/",
+      "name": "http://www.palbostaal.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.breinholt-servicemontage.dk/",
+      "name": "https://www.breinholt-servicemontage.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bostedet-enggaarden.dk/",
+      "name": "http://www.bostedet-enggaarden.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dekoart-bak.dk/",
+      "name": "https://www.dekoart-bak.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.jpautohandel.dk/",
+      "name": "http://www.jpautohandel.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.dogd.dk/",
+      "name": "https://www.dogd.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.jyskvvsbyg.dk/",
+      "name": "https://www.jyskvvsbyg.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.volsgaard.eu/",
+      "name": "https://www.volsgaard.eu/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.bygningssagkyndig.dk/",
+      "name": "http://www.bygningssagkyndig.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://ulrikheyman.dk/",
+      "name": "https://ulrikheyman.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.xn--midtsjllands-traktorservice-1lc.dk/",
+      "name": "https://www.xn--midtsjllands-traktorservice-1lc.dk/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "http://www.betonole.dk/",
+      "name": "http://www.betonole.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://jp-olsen.dk/",
+      "name": "https://jp-olsen.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://malerdanmark.dk/",
+      "name": "http://malerdanmark.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.tmklund.dk/",
+      "name": "https://www.tmklund.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://knudegarn.dk/",
+      "name": "https://knudegarn.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://www.annettesdans.dk/",
+      "name": "https://www.annettesdans.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "https://vp-service.gl/",
+      "name": "https://vp-service.gl/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://bluelight-international.com/",
+      "name": "http://bluelight-international.com/",
+      "description": "Permission: siteUnverifiedUser"
+    },
+    {
+      "id": "https://www.nobelfresh.dk/",
+      "name": "https://www.nobelfresh.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.lyngby-kattepension.dk/",
+      "name": "http://www.lyngby-kattepension.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.autobasen-lakering.dk/",
+      "name": "http://www.autobasen-lakering.dk/",
+      "description": "Permission: siteOwner"
+    },
+    {
+      "id": "http://www.nydahlvvs.dk/",
+      "name": "http://www.nydahlvvs.dk/",
+      "description": "Permission: siteOwner"
+    }
+  ],
+  "_signature": "sMUkCPmQ9YBdpAb+TmDauF6cZkcOfZLFdix3vS8MDpQSKowjLENcST1EwHQcnb5i4lksKpVuKI8lGZze36IgAg=="
+}
