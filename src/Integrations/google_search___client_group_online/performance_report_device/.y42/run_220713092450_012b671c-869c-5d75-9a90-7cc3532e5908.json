@@ -1,0 +1,50 @@
+{
+  "request_id": "220713092450_012b671c-869c-5d75-9a90-7cc3532e5908",
+  "status": "pending",
+  "request": {
+    "source_credentials": "9e1f5efe-1653-4a81-b9e5-06cd7c033a9b",
+    "target_credentials": "69c74348-d040-40de-aa75-088cc78eda0a",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/source.json",
+      "parent_id": "https://www.plotkon.dk/",
+      "start_date": "2021-07-13T11:23:23Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/table",
+      "columns": [
+        "site_url",
+        "search_type",
+        "date",
+        "device",
+        "clicks",
+        "impressions",
+        "position"
+      ],
+      "import": "performance_report_device"
+    },
+    "created_at": "2022-07-13T09:24:50.420406+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/google_search___client_group_online/performance_report_device",
+        "id": "15:0c23ef76-e280-4fb9-93e9-9875d42a5301",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "go-y42-connect",
+        "repo": "y42_group_online_oauth_db",
+        "commit_sha": "1c647b4c745129f8025ed24a0b702eaf319e6e86"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "84",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-13T09:24:50.420406+00:00",
+  "_signature": "s8qnfdGSKVpNmpAxWFBFz6OJO/lNOh98fJVnDB6sAIVUQXS/tmgVsiWHQhQx369QFYcJwBKiemZpYoFq1qidCw=="
+}
