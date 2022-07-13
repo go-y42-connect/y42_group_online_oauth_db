@@ -1,3 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/source.json"
+  "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/source.json",
+  "parent_id": "https://www.plotkon.dk/",
+  "start_date": "2021-07-13T11:23:23Z"
 }
