@@ -1,6 +1,6 @@
 {
   "request_id": "220713092450_012b671c-869c-5d75-9a90-7cc3532e5908",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "9e1f5efe-1653-4a81-b9e5-06cd7c033a9b",
     "target_credentials": "69c74348-d040-40de-aa75-088cc78eda0a",
@@ -63,7 +63,51 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a59375-3201-3a5d-0000-e9a10018a022",
     "storage_file": "azure://v2snowflakedev.blob.core.windows.net/prod-snowflake-container/userUploads/v2/tap-google-search-console/7e5651a4-86dc-4d53-87d9-41ec108edda9",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T09:25:45.488434+00:00",
+    "row_count": 1332,
+    "current_import_row_count": 1332,
+    "size_in_bytes": 19968,
+    "columns": [
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "site_url",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "search_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "device",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "position",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220713092450_012b671c-869c-5d75-9a90-7cc3532e5908",
+    "external_url": "https://gr00444.eu-central-1.snowflakecomputing.com/console#/data/tables/detail?databaseName=PROD_SNOWFLAKE_DB&schemaName=PROD_SNOWFLAKE_SCHEMA&tableName=220713092450_012b671c-869c-5d75-9a90-7cc3532e5908"
   },
-  "_signature": "HgiJPsYmn0zaJZ7klKlUAsIUI++Tjbhw/IjECIC0W+Fr7FxFiDaUXJph12cFZ7r+R19rVebYzfIYCtqne9jsBg=="
+  "finished_at": "2022-07-13T09:25:45.488584+00:00",
+  "_signature": "M18lXw6gFOz5wQ5mbDZe88YQnG1FR1NQsax0e/n9TvujV0lw38ZBcWRCmMD8x+wb5WqfiewzorZAxNLm7JdlDA=="
 }
