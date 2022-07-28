@@ -388,6 +388,12 @@
           },
           "author": {
             "properties": {
+              "displayName": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "profilePhotoUri": {
                 "type": [
                   "string",
@@ -395,12 +401,6 @@
                 ]
               },
               "type": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "displayName": {
                 "type": [
                   "string",
                   "null"
@@ -474,6 +474,15 @@
             "properties",
             "author",
             "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "author",
+            "properties",
             "profilePhotoUri"
           ],
           "metadata": {}
@@ -484,15 +493,6 @@
             "author",
             "properties",
             "type"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "author",
-            "properties",
-            "displayName"
           ],
           "metadata": {}
         },
@@ -642,6 +642,12 @@
           },
           "author": {
             "properties": {
+              "displayName": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "profilePhotoUri": {
                 "type": [
                   "string",
@@ -649,12 +655,6 @@
                 ]
               },
               "type": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "displayName": {
                 "type": [
                   "string",
                   "null"
@@ -693,19 +693,7 @@
           "topAnswers": {
             "items": {
               "properties": {
-                "upvoteCount": {
-                  "type": [
-                    "integer",
-                    "null"
-                  ]
-                },
                 "text": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
-                "createTime": {
                   "type": [
                     "string",
                     "null"
@@ -717,8 +705,20 @@
                     "null"
                   ]
                 },
+                "updateTime": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
                 "author": {
                   "properties": {
+                    "displayName": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
                     "profilePhotoUri": {
                       "type": [
                         "string",
@@ -730,12 +730,6 @@
                         "string",
                         "null"
                       ]
-                    },
-                    "displayName": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
                     }
                   },
                   "type": [
@@ -743,9 +737,15 @@
                     "null"
                   ]
                 },
-                "updateTime": {
+                "createTime": {
                   "type": [
                     "string",
+                    "null"
+                  ]
+                },
+                "upvoteCount": {
+                  "type": [
+                    "integer",
                     "null"
                   ]
                 }
@@ -804,6 +804,15 @@
             "properties",
             "author",
             "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "author",
+            "properties",
             "profilePhotoUri"
           ],
           "metadata": {}
@@ -814,15 +823,6 @@
             "author",
             "properties",
             "type"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "author",
-            "properties",
-            "displayName"
           ],
           "metadata": {}
         },
@@ -875,27 +875,7 @@
             "topAnswers",
             "items",
             "properties",
-            "upvoteCount"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "topAnswers",
-            "items",
-            "properties",
             "text"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "topAnswers",
-            "items",
-            "properties",
-            "createTime"
           ],
           "metadata": {}
         },
@@ -915,7 +895,29 @@
             "topAnswers",
             "items",
             "properties",
+            "updateTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "topAnswers",
+            "items",
+            "properties",
             "author"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "topAnswers",
+            "items",
+            "properties",
+            "author",
+            "properties",
+            "displayName"
           ],
           "metadata": {}
         },
@@ -949,9 +951,7 @@
             "topAnswers",
             "items",
             "properties",
-            "author",
-            "properties",
-            "displayName"
+            "createTime"
           ],
           "metadata": {}
         },
@@ -961,7 +961,7 @@
             "topAnswers",
             "items",
             "properties",
-            "updateTime"
+            "upvoteCount"
           ],
           "metadata": {}
         },
@@ -3285,130 +3285,20 @@
               "null"
             ]
           },
-          "specialHours": {
-            "properties": {
-              "specialHourPeriods": {
-                "items": {
+          "serviceItems": {
+            "items": {
+              "properties": {
+                "structuredServiceItem": {
                   "properties": {
-                    "startDate": {
-                      "properties": {
-                        "month": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "day": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "year": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        }
-                      },
+                    "serviceTypeId": {
                       "type": [
-                        "object",
+                        "string",
                         "null"
                       ]
                     },
-                    "closed": {
+                    "description": {
                       "type": [
-                        "boolean",
-                        "null"
-                      ]
-                    },
-                    "closeTime": {
-                      "properties": {
-                        "minutes": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "nanos": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "seconds": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "hours": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "endDate": {
-                      "properties": {
-                        "month": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "day": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "year": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "openTime": {
-                      "properties": {
-                        "minutes": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "nanos": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "seconds": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "hours": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
+                        "string",
                         "null"
                       ]
                     }
@@ -3418,14 +3308,80 @@
                     "null"
                   ]
                 },
-                "type": [
-                  "array",
-                  "null"
-                ]
-              }
+                "freeFormServiceItem": {
+                  "properties": {
+                    "label": {
+                      "properties": {
+                        "displayName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "languageCode": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "description": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "category": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "price": {
+                  "properties": {
+                    "nanos": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "currencyCode": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "units": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                "null"
+              ]
             },
             "type": [
-              "object",
+              "array",
               "null"
             ]
           },
@@ -3441,547 +3397,89 @@
               "null"
             ]
           },
-          "regularHours": {
+          "metadata": {
             "properties": {
-              "periods": {
-                "items": {
-                  "properties": {
-                    "closeDay": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "openDay": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "openTime": {
-                      "properties": {
-                        "minutes": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "nanos": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "seconds": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "hours": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "closeTime": {
-                      "properties": {
-                        "minutes": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "nanos": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "seconds": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        },
-                        "hours": {
-                          "type": [
-                            "integer",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    }
-                  },
-                  "type": [
-                    "object",
-                    "null"
-                  ]
-                },
+              "hasPendingEdits": {
                 "type": [
-                  "array",
+                  "boolean",
                   "null"
                 ]
-              }
-            },
-            "type": [
-              "object",
-              "null"
-            ]
-          },
-          "serviceArea": {
-            "properties": {
-              "businessType": {
+              },
+              "placeId": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "places": {
-                "properties": {
-                  "placeInfos": {
-                    "items": {
-                      "properties": {
-                        "placeName": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        },
-                        "placeId": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "type": [
-                      "array",
-                      "null"
-                    ]
-                  }
-                },
-                "type": [
-                  "object",
-                  "null"
-                ]
-              },
-              "regionCode": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              }
-            },
-            "type": [
-              "object",
-              "null"
-            ]
-          },
-          "profile": {
-            "properties": {
-              "description": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              }
-            },
-            "type": [
-              "object",
-              "null"
-            ]
-          },
-          "websiteUri": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "storeCode": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "storefrontAddress": {
-            "properties": {
-              "languageCode": {
+              "mapsUri": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "regionCode": {
+              "canModifyServiceList": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "hasGoogleUpdated": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "canOperateHealthData": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "hasVoiceOfMerchant": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "newReviewUri": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "postalCode": {
+              "canHaveFoodMenus": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "canHaveBusinessCalls": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "duplicateLocation": {
                 "type": [
                   "string",
                   "null"
                 ]
               },
-              "sortingCode": {
+              "canDelete": {
                 "type": [
-                  "string",
+                  "boolean",
                   "null"
                 ]
               },
-              "addressLines": {
-                "items": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
+              "canOperateLocalPost": {
                 "type": [
-                  "array",
+                  "boolean",
                   "null"
                 ]
               },
-              "sublocality": {
+              "canOperateLodgingData": {
                 "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "organization": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "administrativeArea": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "recipients": {
-                "items": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
-                "type": [
-                  "array",
-                  "null"
-                ]
-              },
-              "revision": {
-                "type": [
-                  "integer",
-                  "null"
-                ]
-              },
-              "locality": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              }
-            },
-            "type": [
-              "object",
-              "null"
-            ]
-          },
-          "moreHours": {
-            "items": {
-              "properties": {
-                "periods": {
-                  "items": {
-                    "properties": {
-                      "closeDay": {
-                        "type": [
-                          "string",
-                          "null"
-                        ]
-                      },
-                      "openDay": {
-                        "type": [
-                          "string",
-                          "null"
-                        ]
-                      },
-                      "openTime": {
-                        "properties": {
-                          "minutes": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          },
-                          "nanos": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          },
-                          "seconds": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          },
-                          "hours": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          }
-                        },
-                        "type": [
-                          "object",
-                          "null"
-                        ]
-                      },
-                      "closeTime": {
-                        "properties": {
-                          "minutes": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          },
-                          "nanos": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          },
-                          "seconds": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          },
-                          "hours": {
-                            "type": [
-                              "integer",
-                              "null"
-                            ]
-                          }
-                        },
-                        "type": [
-                          "object",
-                          "null"
-                        ]
-                      }
-                    },
-                    "type": [
-                      "object",
-                      "null"
-                    ]
-                  },
-                  "type": [
-                    "array",
-                    "null"
-                  ]
-                },
-                "hoursTypeId": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                }
-              },
-              "type": [
-                "object",
-                "null"
-              ]
-            },
-            "type": [
-              "array",
-              "null"
-            ]
-          },
-          "name": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "categories": {
-            "properties": {
-              "additionalCategories": {
-                "items": {
-                  "properties": {
-                    "name": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "serviceTypes": {
-                      "items": {
-                        "properties": {
-                          "serviceTypeId": {
-                            "type": [
-                              "string",
-                              "null"
-                            ]
-                          },
-                          "displayName": {
-                            "type": [
-                              "string",
-                              "null"
-                            ]
-                          }
-                        },
-                        "type": [
-                          "object",
-                          "null"
-                        ]
-                      },
-                      "type": [
-                        "array",
-                        "null"
-                      ]
-                    },
-                    "displayName": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "moreHoursTypes": {
-                      "items": {
-                        "properties": {
-                          "displayName": {
-                            "type": [
-                              "string",
-                              "null"
-                            ]
-                          },
-                          "hoursTypeId": {
-                            "type": [
-                              "string",
-                              "null"
-                            ]
-                          },
-                          "localizedDisplayName": {
-                            "type": [
-                              "string",
-                              "null"
-                            ]
-                          }
-                        },
-                        "type": [
-                          "object",
-                          "null"
-                        ]
-                      },
-                      "type": [
-                        "array",
-                        "null"
-                      ]
-                    }
-                  },
-                  "type": [
-                    "object",
-                    "null"
-                  ]
-                },
-                "type": [
-                  "array",
-                  "null"
-                ]
-              },
-              "primaryCategory": {
-                "properties": {
-                  "name": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
-                  },
-                  "serviceTypes": {
-                    "items": {
-                      "properties": {
-                        "serviceTypeId": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        },
-                        "displayName": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "type": [
-                      "array",
-                      "null"
-                    ]
-                  },
-                  "displayName": {
-                    "type": [
-                      "string",
-                      "null"
-                    ]
-                  },
-                  "moreHoursTypes": {
-                    "items": {
-                      "properties": {
-                        "displayName": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        },
-                        "hoursTypeId": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        },
-                        "localizedDisplayName": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "type": [
-                      "array",
-                      "null"
-                    ]
-                  }
-                },
-                "type": [
-                  "object",
+                  "boolean",
                   "null"
                 ]
               }
@@ -4005,95 +3503,23 @@
               "null"
             ]
           },
-          "languageCode": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "metadata": {
+          "phoneNumbers": {
             "properties": {
-              "canOperateLodgingData": {
+              "additionalPhones": {
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
                 "type": [
-                  "boolean",
+                  "array",
                   "null"
                 ]
               },
-              "canDelete": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "canModifyServiceList": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "newReviewUri": {
+              "primaryPhone": {
                 "type": [
                   "string",
-                  "null"
-                ]
-              },
-              "canHaveBusinessCalls": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "hasPendingEdits": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "canOperateLocalPost": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "hasVoiceOfMerchant": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "placeId": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "canOperateHealthData": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "duplicateLocation": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "hasGoogleUpdated": {
-                "type": [
-                  "boolean",
-                  "null"
-                ]
-              },
-              "mapsUri": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "canHaveFoodMenus": {
-                "type": [
-                  "boolean",
                   "null"
                 ]
               }
@@ -4163,6 +3589,700 @@
               "null"
             ]
           },
+          "categories": {
+            "properties": {
+              "primaryCategory": {
+                "properties": {
+                  "moreHoursTypes": {
+                    "items": {
+                      "properties": {
+                        "hoursTypeId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "localizedDisplayName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "displayName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "type": [
+                      "array",
+                      "null"
+                    ]
+                  },
+                  "displayName": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "name": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "serviceTypes": {
+                    "items": {
+                      "properties": {
+                        "displayName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "serviceTypeId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "type": [
+                      "array",
+                      "null"
+                    ]
+                  }
+                },
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "additionalCategories": {
+                "items": {
+                  "properties": {
+                    "moreHoursTypes": {
+                      "items": {
+                        "properties": {
+                          "hoursTypeId": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "localizedDisplayName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "displayName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "type": [
+                          "object",
+                          "null"
+                        ]
+                      },
+                      "type": [
+                        "array",
+                        "null"
+                      ]
+                    },
+                    "displayName": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "name": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "serviceTypes": {
+                      "items": {
+                        "properties": {
+                          "displayName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "serviceTypeId": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "type": [
+                          "object",
+                          "null"
+                        ]
+                      },
+                      "type": [
+                        "array",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "type": [
+                  "array",
+                  "null"
+                ]
+              }
+            },
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "storefrontAddress": {
+            "properties": {
+              "revision": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "sortingCode": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "postalCode": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regionCode": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "organization": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "locality": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "administrativeArea": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "recipients": {
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "type": [
+                  "array",
+                  "null"
+                ]
+              },
+              "languageCode": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sublocality": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "addressLines": {
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "type": [
+                  "array",
+                  "null"
+                ]
+              }
+            },
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "profile": {
+            "properties": {
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "languageCode": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "websiteUri": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "regularHours": {
+            "properties": {
+              "periods": {
+                "items": {
+                  "properties": {
+                    "openTime": {
+                      "properties": {
+                        "minutes": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "seconds": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "hours": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "nanos": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "closeDay": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "openDay": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "closeTime": {
+                      "properties": {
+                        "minutes": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "seconds": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "hours": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "nanos": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "type": [
+                  "array",
+                  "null"
+                ]
+              }
+            },
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "moreHours": {
+            "items": {
+              "properties": {
+                "periods": {
+                  "items": {
+                    "properties": {
+                      "openTime": {
+                        "properties": {
+                          "minutes": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "seconds": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "hours": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "nanos": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          }
+                        },
+                        "type": [
+                          "object",
+                          "null"
+                        ]
+                      },
+                      "closeDay": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "openDay": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closeTime": {
+                        "properties": {
+                          "minutes": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "seconds": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "hours": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "nanos": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          }
+                        },
+                        "type": [
+                          "object",
+                          "null"
+                        ]
+                      }
+                    },
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  },
+                  "type": [
+                    "array",
+                    "null"
+                  ]
+                },
+                "hoursTypeId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "specialHours": {
+            "properties": {
+              "specialHourPeriods": {
+                "items": {
+                  "properties": {
+                    "endDate": {
+                      "properties": {
+                        "year": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "month": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "day": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "startDate": {
+                      "properties": {
+                        "year": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "month": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "day": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "closeTime": {
+                      "properties": {
+                        "minutes": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "seconds": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "hours": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "nanos": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "openTime": {
+                      "properties": {
+                        "minutes": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "seconds": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "hours": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "nanos": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "closed": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "type": [
+                  "array",
+                  "null"
+                ]
+              }
+            },
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "serviceArea": {
+            "properties": {
+              "places": {
+                "properties": {
+                  "placeInfos": {
+                    "items": {
+                      "properties": {
+                        "placeName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "placeId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "type": [
+                        "object",
+                        "null"
+                      ]
+                    },
+                    "type": [
+                      "array",
+                      "null"
+                    ]
+                  }
+                },
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "businessType": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regionCode": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "latlng": {
             "properties": {
               "latitude": {
@@ -4183,32 +4303,6 @@
               "null"
             ]
           },
-          "phoneNumbers": {
-            "properties": {
-              "primaryPhone": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "additionalPhones": {
-                "items": {
-                  "type": [
-                    "string",
-                    "null"
-                  ]
-                },
-                "type": [
-                  "array",
-                  "null"
-                ]
-              }
-            },
-            "type": [
-              "object",
-              "null"
-            ]
-          },
           "openInfo": {
             "properties": {
               "status": {
@@ -4219,6 +4313,12 @@
               },
               "openingDate": {
                 "properties": {
+                  "year": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
                   "month": {
                     "type": [
                       "integer",
@@ -4226,12 +4326,6 @@
                     ]
                   },
                   "day": {
-                    "type": [
-                      "integer",
-                      "null"
-                    ]
-                  },
-                  "year": {
                     "type": [
                       "integer",
                       "null"
@@ -4255,109 +4349,15 @@
               "null"
             ]
           },
-          "title": {
+          "storeCode": {
             "type": [
               "string",
               "null"
             ]
           },
-          "serviceItems": {
-            "items": {
-              "properties": {
-                "freeFormServiceItem": {
-                  "properties": {
-                    "label": {
-                      "properties": {
-                        "languageCode": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        },
-                        "description": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        },
-                        "displayName": {
-                          "type": [
-                            "string",
-                            "null"
-                          ]
-                        }
-                      },
-                      "type": [
-                        "object",
-                        "null"
-                      ]
-                    },
-                    "category": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    }
-                  },
-                  "type": [
-                    "object",
-                    "null"
-                  ]
-                },
-                "structuredServiceItem": {
-                  "properties": {
-                    "description": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "serviceTypeId": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    }
-                  },
-                  "type": [
-                    "object",
-                    "null"
-                  ]
-                },
-                "price": {
-                  "properties": {
-                    "units": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "currencyCode": {
-                      "type": [
-                        "string",
-                        "null"
-                      ]
-                    },
-                    "nanos": {
-                      "type": [
-                        "integer",
-                        "null"
-                      ]
-                    }
-                  },
-                  "type": [
-                    "object",
-                    "null"
-                  ]
-                }
-              },
-              "type": [
-                "object",
-                "null"
-              ]
-            },
+          "name": {
             "type": [
-              "array",
+              "string",
               "null"
             ]
           }
@@ -4393,25 +4393,14 @@
         {
           "breadcrumb": [
             "properties",
-            "specialHours"
+            "serviceItems"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items"
           ],
           "metadata": {}
@@ -4419,104 +4408,126 @@
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "startDate"
+            "structuredServiceItem"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "startDate",
+            "structuredServiceItem",
             "properties",
-            "month"
+            "serviceTypeId"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "startDate",
+            "structuredServiceItem",
             "properties",
-            "day"
+            "description"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "startDate",
-            "properties",
-            "year"
+            "freeFormServiceItem"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "closed"
+            "properties",
+            "label"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "closeTime"
+            "properties",
+            "label",
+            "properties",
+            "displayName"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "closeTime",
             "properties",
-            "minutes"
+            "label",
+            "properties",
+            "languageCode"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "closeTime",
+            "properties",
+            "label",
+            "properties",
+            "description"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "serviceItems",
+            "items",
+            "properties",
+            "freeFormServiceItem",
+            "properties",
+            "category"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "serviceItems",
+            "items",
+            "properties",
+            "price"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "serviceItems",
+            "items",
+            "properties",
+            "price",
             "properties",
             "nanos"
           ],
@@ -4525,150 +4536,24 @@
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "closeTime",
+            "price",
             "properties",
-            "seconds"
+            "currencyCode"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
+            "serviceItems",
             "items",
             "properties",
-            "closeTime",
+            "price",
             "properties",
-            "hours"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "endDate"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "endDate",
-            "properties",
-            "month"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "endDate",
-            "properties",
-            "day"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "endDate",
-            "properties",
-            "year"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "openTime"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "minutes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "nanos"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "seconds"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "specialHours",
-            "properties",
-            "specialHourPeriods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "hours"
+            "units"
           ],
           "metadata": {}
         },
@@ -4690,255 +4575,23 @@
         {
           "breadcrumb": [
             "properties",
-            "regularHours"
+            "metadata"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "regularHours",
+            "metadata",
             "properties",
-            "periods"
+            "hasPendingEdits"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeDay"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openDay"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "minutes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "nanos"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "seconds"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "hours"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "minutes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "nanos"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "seconds"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "regularHours",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "hours"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceArea"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceArea",
-            "properties",
-            "businessType"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "places"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "places",
-            "properties",
-            "placeInfos"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "places",
-            "properties",
-            "placeInfos",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "places",
-            "properties",
-            "placeInfos",
-            "items",
-            "properties",
-            "placeName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "places",
-            "properties",
-            "placeInfos",
-            "items",
+            "metadata",
             "properties",
             "placeId"
           ],
@@ -4947,700 +4600,108 @@
         {
           "breadcrumb": [
             "properties",
-            "serviceArea",
+            "metadata",
             "properties",
-            "regionCode"
+            "mapsUri"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "profile"
+            "metadata",
+            "properties",
+            "canModifyServiceList"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "profile",
+            "metadata",
             "properties",
-            "description"
+            "hasGoogleUpdated"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "websiteUri"
+            "metadata",
+            "properties",
+            "canOperateHealthData"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storeCode"
+            "metadata",
+            "properties",
+            "hasVoiceOfMerchant"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress"
+            "metadata",
+            "properties",
+            "newReviewUri"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress",
+            "metadata",
             "properties",
-            "languageCode"
+            "canHaveFoodMenus"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress",
+            "metadata",
             "properties",
-            "regionCode"
+            "canHaveBusinessCalls"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress",
+            "metadata",
             "properties",
-            "postalCode"
+            "duplicateLocation"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress",
+            "metadata",
             "properties",
-            "sortingCode"
+            "canDelete"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress",
+            "metadata",
             "properties",
-            "addressLines"
+            "canOperateLocalPost"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "storefrontAddress",
+            "metadata",
             "properties",
-            "addressLines",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "sublocality"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "organization"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "administrativeArea"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "recipients"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "recipients",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "revision"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "storefrontAddress",
-            "properties",
-            "locality"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeDay"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openDay"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "minutes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "nanos"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "seconds"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "openTime",
-            "properties",
-            "hours"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "minutes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "nanos"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "seconds"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "periods",
-            "items",
-            "properties",
-            "closeTime",
-            "properties",
-            "hours"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "moreHours",
-            "items",
-            "properties",
-            "hoursTypeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "name"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "name"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "serviceTypes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "serviceTypes",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "serviceTypes",
-            "items",
-            "properties",
-            "serviceTypeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "serviceTypes",
-            "items",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "moreHoursTypes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "moreHoursTypes",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "moreHoursTypes",
-            "items",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "moreHoursTypes",
-            "items",
-            "properties",
-            "hoursTypeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "categories",
-            "properties",
-            "additionalCategories",
-            "items",
-            "properties",
-            "moreHoursTypes",
-            "items",
-            "properties",
-            "localizedDisplayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "name"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "serviceTypes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "serviceTypes",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "serviceTypes",
-            "items",
-            "properties",
-            "serviceTypeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "serviceTypes",
-            "items",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "moreHoursTypes"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "moreHoursTypes",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "moreHoursTypes",
-            "items",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "moreHoursTypes",
-            "items",
-            "properties",
-            "hoursTypeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "properties",
-            "primaryCategory",
-            "properties",
-            "moreHoursTypes",
-            "items",
-            "properties",
-            "localizedDisplayName"
+            "canOperateLodgingData"
           ],
           "metadata": {}
         },
@@ -5663,140 +4724,35 @@
         {
           "breadcrumb": [
             "properties",
-            "languageCode"
+            "phoneNumbers"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "metadata"
+            "phoneNumbers",
+            "properties",
+            "additionalPhones"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "metadata",
+            "phoneNumbers",
             "properties",
-            "canOperateLodgingData"
+            "additionalPhones",
+            "items"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "metadata",
+            "phoneNumbers",
             "properties",
-            "canDelete"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "canModifyServiceList"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "newReviewUri"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "canHaveBusinessCalls"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "hasPendingEdits"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "canOperateLocalPost"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "hasVoiceOfMerchant"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "placeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "canOperateHealthData"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "duplicateLocation"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "hasGoogleUpdated"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "mapsUri"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metadata",
-            "properties",
-            "canHaveFoodMenus"
+            "primaryPhone"
           ],
           "metadata": {}
         },
@@ -5890,6 +4846,1245 @@
         {
           "breadcrumb": [
             "properties",
+            "categories"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "moreHoursTypes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "moreHoursTypes",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "moreHoursTypes",
+            "items",
+            "properties",
+            "hoursTypeId"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "moreHoursTypes",
+            "items",
+            "properties",
+            "localizedDisplayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "moreHoursTypes",
+            "items",
+            "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "name"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "serviceTypes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "serviceTypes",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "serviceTypes",
+            "items",
+            "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "primaryCategory",
+            "properties",
+            "serviceTypes",
+            "items",
+            "properties",
+            "serviceTypeId"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "moreHoursTypes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "moreHoursTypes",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "moreHoursTypes",
+            "items",
+            "properties",
+            "hoursTypeId"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "moreHoursTypes",
+            "items",
+            "properties",
+            "localizedDisplayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "moreHoursTypes",
+            "items",
+            "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "name"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "serviceTypes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "serviceTypes",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "serviceTypes",
+            "items",
+            "properties",
+            "displayName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "categories",
+            "properties",
+            "additionalCategories",
+            "items",
+            "properties",
+            "serviceTypes",
+            "items",
+            "properties",
+            "serviceTypeId"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "revision"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "sortingCode"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "postalCode"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "regionCode"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "organization"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "locality"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "administrativeArea"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "recipients"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "recipients",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "languageCode"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "sublocality"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "addressLines"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storefrontAddress",
+            "properties",
+            "addressLines",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "profile"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "profile",
+            "properties",
+            "description"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "languageCode"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "websiteUri"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "minutes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "seconds"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "hours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "nanos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeDay"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openDay"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "minutes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "seconds"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "hours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "regularHours",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "nanos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "minutes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "seconds"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "hours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "nanos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeDay"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "openDay"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "minutes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "seconds"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "hours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "periods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "nanos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "moreHours",
+            "items",
+            "properties",
+            "hoursTypeId"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "endDate"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "endDate",
+            "properties",
+            "year"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "endDate",
+            "properties",
+            "month"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "endDate",
+            "properties",
+            "day"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "startDate"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "startDate",
+            "properties",
+            "year"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "startDate",
+            "properties",
+            "month"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "startDate",
+            "properties",
+            "day"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "closeTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "minutes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "seconds"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "hours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "closeTime",
+            "properties",
+            "nanos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "openTime"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "minutes"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "seconds"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "hours"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "openTime",
+            "properties",
+            "nanos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "specialHours",
+            "properties",
+            "specialHourPeriods",
+            "items",
+            "properties",
+            "closed"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "serviceArea"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "places"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "places",
+            "properties",
+            "placeInfos"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "places",
+            "properties",
+            "placeInfos",
+            "items"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "places",
+            "properties",
+            "placeInfos",
+            "items",
+            "properties",
+            "placeName"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "places",
+            "properties",
+            "placeInfos",
+            "items",
+            "properties",
+            "placeId"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "serviceArea",
+            "properties",
+            "businessType"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "serviceArea",
+            "properties",
+            "regionCode"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "title"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
             "latlng"
           ],
           "metadata": {}
@@ -5909,41 +6104,6 @@
             "latlng",
             "properties",
             "longitude"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "phoneNumbers"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "phoneNumbers",
-            "properties",
-            "primaryPhone"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "phoneNumbers",
-            "properties",
-            "additionalPhones"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "phoneNumbers",
-            "properties",
-            "additionalPhones",
-            "items"
           ],
           "metadata": {}
         },
@@ -5977,6 +6137,16 @@
             "properties",
             "openingDate",
             "properties",
+            "year"
+          ],
+          "metadata": {}
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "properties",
+            "openingDate",
+            "properties",
             "month"
           ],
           "metadata": {}
@@ -5994,16 +6164,6 @@
         {
           "breadcrumb": [
             "properties",
-            "properties",
-            "openingDate",
-            "properties",
-            "year"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
             "openInfo",
             "properties",
             "canReopen"
@@ -6013,174 +6173,14 @@
         {
           "breadcrumb": [
             "properties",
-            "title"
+            "storeCode"
           ],
           "metadata": {}
         },
         {
           "breadcrumb": [
             "properties",
-            "serviceItems"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "freeFormServiceItem"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "properties",
-            "label"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "properties",
-            "label",
-            "properties",
-            "languageCode"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "properties",
-            "label",
-            "properties",
-            "description"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "properties",
-            "label",
-            "properties",
-            "displayName"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "freeFormServiceItem",
-            "properties",
-            "category"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "structuredServiceItem"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "structuredServiceItem",
-            "properties",
-            "description"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "structuredServiceItem",
-            "properties",
-            "serviceTypeId"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "price"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "price",
-            "properties",
-            "units"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "price",
-            "properties",
-            "currencyCode"
-          ],
-          "metadata": {}
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "serviceItems",
-            "items",
-            "properties",
-            "price",
-            "properties",
-            "nanos"
+            "name"
           ],
           "metadata": {}
         }
@@ -6405,5 +6405,5 @@
       ]
     }
   ],
-  "_signature": "9fp8VbOSw+oIg/TSPRXLymFQKjMjzgZSU3P/NMKwgWuS0Radr7MGw+EgYAKKDj2FXPphXp1/zEn+MlIT2apqCA=="
+  "_signature": "YCZLtJk+/TQ6jTgFHu7PhB4AzzAN1Zwv8oRiBOG8Dv3b5Hz/q+8HkhyFVeGRDc1uSS/r5IFj02vz9rdlJif2Dw=="
 }
