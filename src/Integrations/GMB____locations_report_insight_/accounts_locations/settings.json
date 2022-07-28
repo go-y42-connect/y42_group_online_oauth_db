@@ -1,0 +1,31 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/table",
+  "columns": [
+    "accountName",
+    "profile",
+    "languageCode",
+    "regularHours",
+    "serviceArea",
+    "latlng",
+    "labels",
+    "storeCode",
+    "specialHours",
+    "relationshipData",
+    "phoneNumbers",
+    "websiteUri",
+    "categories",
+    "metadata",
+    "title",
+    "name",
+    "moreHours",
+    "openInfo",
+    "serviceItems",
+    "storefrontAddress",
+    "adWordsLocationExtensions"
+  ],
+  "import": "accounts_locations",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}
